@@ -4,7 +4,8 @@
  #de comandos a ejecutar en un determinado tiempo, indicado por el usuario y se ejecute en una determinada hora 
 
 
-#crontab * 23 * * *
+#ejecutas el comando crontab -e 
+* 23 * * *
 
 #con este comando haremos una copia de seguridad de los documentos personales de los usuarios
 rsync -av /home /backups
